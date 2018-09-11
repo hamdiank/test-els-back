@@ -26,8 +26,6 @@ public class EmployeeServiceImpl implements EmployeeService {
 
 	private final EmployeeRepository employeeRepository;
 
-	@Autowired
-	MongoTemplate mongoTemplate;
 
 	public EmployeeServiceImpl(EmployeeRepository employeeRepository) {
 		this.employeeRepository = employeeRepository;
