@@ -17,3 +17,7 @@ Alternatively you can use the [Spring Boot Maven plugin](https://docs.spring.io/
 ```shell
 mvn spring-boot:run
 ```
+## Running Test
+```shell
+mvn test
+```
